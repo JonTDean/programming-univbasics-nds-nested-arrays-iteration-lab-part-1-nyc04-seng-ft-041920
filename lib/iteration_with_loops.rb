@@ -8,4 +8,6 @@ def find_even_values(src)
     if is_even % 2 == 0
       array_even << is_even
     end
+    
+    return array_even
 end
