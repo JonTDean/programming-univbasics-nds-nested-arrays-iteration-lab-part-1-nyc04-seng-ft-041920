@@ -6,6 +6,6 @@ def find_even_values(src)
   
   src.each do |is_even|
     if is_even % 2 == 0
-      
-
+      array_even << is_even
+    end
 end
