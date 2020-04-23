@@ -7,10 +7,10 @@ def find_even_values(src)
   src.each do |x|
     x.each do |i|
       if i % 2 == 0
-       array_even << i
+       puts i
       end
     end
   end
 
-  return array_even
+
 end
