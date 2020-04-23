@@ -4,12 +4,13 @@ def find_even_values(src)
   # Output all even values in each nested array
   array_even = []
   
-  src.each do |is_even|
-    if is_even % 2 == 0
-      puts is_even
-      # array_even << is_even
+  src.each do |x|
+    x.each do |i|
+      if i % 2 == 0
+       array_even << i
+      end
     end
-    
-    # return array_even
   end
+
+  return array_even
 end
