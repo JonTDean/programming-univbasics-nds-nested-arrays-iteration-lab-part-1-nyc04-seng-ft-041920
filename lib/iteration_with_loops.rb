@@ -10,6 +10,6 @@ def find_even_values(src)
       # array_even << is_even
     end
     
-    return array_even
+    # return array_even
   end
 end
