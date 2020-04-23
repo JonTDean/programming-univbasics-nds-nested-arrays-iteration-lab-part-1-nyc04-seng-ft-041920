@@ -5,7 +5,7 @@ def find_even_values(src)
   array_even = []
   
   src.each do |is_even|
-    if is_even.to_i % 2 == 0
+    if is_even % 2 == 0
       array_even << is_even
     end
     
